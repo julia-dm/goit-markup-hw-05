@@ -472,10 +472,10 @@ color: #f4f4fd;
 max-width: 264px;
 
 }
-.footer-box1{
+.footer-box-first{
     margin-right: 120px;
 }
-.footer-box2 {
+.footer-box-srcond {
 /* display: flex; */
 display: block;
 /* margin-left: 120px; */
