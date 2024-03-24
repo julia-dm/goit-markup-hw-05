@@ -93,7 +93,6 @@ font-weight: 500;
 display: block;
     padding: 24px 0;
     position: relative;
-    /* color: #404bbf; */
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     
 }
@@ -111,7 +110,6 @@ display: block;
 .header-menu-item:hover,
 .header-menu-item:focus{
 color: #404bbf;
-/* text-decoration: underline; */
 }
 .header-contact {
     font-style: normal;
@@ -183,7 +181,6 @@ background: #4d5ae5;
 cursor: pointer;
 margin: 0 auto;
 padding: 16px 32px;
-/* max-width: 169px; */
 border-radius: 4px;
 border:none;
 min-width: 169px;
@@ -288,7 +285,6 @@ text-align: center;
      background-color: #ffffff;
      width: calc((100% - 24px * 3) / 4);
       border-radius: 0 0 4px 4px;
-/* padding: 0px 0px 32px 0px;  */
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-image {
@@ -300,7 +296,6 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-/* margin-top: 32px; */
 margin-bottom: 8px;
 
 }
@@ -311,13 +306,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
-/* margin-bottom: 32px; */
 }
 
 .team-info{
      padding-top: 32px;
   padding-bottom: 32px;
-  /* background-color: #ffb2af; */
 }
 
 .team-soc-list {
@@ -402,7 +395,6 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 
 margin-bottom: 8px;
-/* padding-bottom: 32px; */
 }
 .portfolio-description {
 font-size: 16px;
@@ -426,9 +418,6 @@ position: absolute;
   top: 0;
 background: #4d5ae5;
 height: 100%;
-/* padding-left: 32px;
-padding-right: 32px; */
-/* padding: 40px 32px 0 32px; */
 transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 40px 32px;
@@ -456,7 +445,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 display: flex;
- /* margin-top: 100px; */
 margin-bottom: 16px;
 display: inline-block;
 
@@ -476,9 +464,7 @@ max-width: 264px;
     margin-right: 120px;
 }
 .footer-box-second {
-/* display: flex; */
 display: block;
-/* margin-left: 120px; */
 flex-wrap: wrap;
 margin-right: 80px;
 
@@ -597,16 +583,16 @@ input[type="email"]::placeholder{
     width: 100%;
     height: 100%;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* opacity: 0;
+    opacity: 0;
     visibility: hidden;
-pointer-events: none; */
+pointer-events: none;
 
 }
-/* .is-open{
+.is-open{
       opacity: 1;
     visibility: visible;
 pointer-events: auto;
-} */
+}
 
 .modal{
     /* centering the monal window */
@@ -722,10 +708,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-/* .user-comment{
-    display: block;
-} */
-
 .modal-text{
     display: block;
 border: 1px solid rgba(46, 47, 66, 0.4);
@@ -745,12 +727,6 @@ color: rgba(46, 47, 66, 0.4);
 
 
 }
-/* textarea::placeholder {
-  font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.04em;
-color: rgba(46, 47, 66, 0.4);
-} */
 
 .modal-text:focus{
     border-color: #4D5AE5;
@@ -761,7 +737,7 @@ margin-bottom: 16px;
 }
 .modal-filed-check{
     margin-bottom: 24px;
-    
+
    border-radius: 4px;
 width: 360px;
 height: 16px;
